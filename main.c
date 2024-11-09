@@ -13,7 +13,8 @@ int main()
     }
     for(int i = 0; i < tam; i++) {
         scanf("%d", &vet[i]);
-    }
+        if(tam==0) 
+    printf("[vazio]");
     printf("[");
     for(int i = 0; i < tam; i++) {
         printf("%d", vet[i]);
