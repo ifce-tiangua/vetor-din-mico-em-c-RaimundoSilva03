@@ -21,7 +21,7 @@ int main()
         printf(" %d", vet[i]);
         if(i<tam-1) {
 		
-        printf(",");
+        printf(", ");
         }
     }
     printf("]");
