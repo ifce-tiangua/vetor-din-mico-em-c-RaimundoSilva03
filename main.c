@@ -22,6 +22,7 @@ int main()
         printf(",");
     }
     printf("]");
-    free(vet);
+    
     return 0;
+        free(vet);
 }
