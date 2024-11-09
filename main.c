@@ -16,10 +16,11 @@ int main()
     }
     printf("[");
     for(int i = 0; i < tam; i++) {
-        printf("%d ", vet[i]);
+        printf("%d", vet[i]);
         if(i<tam-1)
         printf(",");
     }
     printf("]");
+    free(vet);
     return 0;
 }
